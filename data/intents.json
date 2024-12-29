@@ -1,0 +1,668 @@
+{
+    "intents": [
+        {
+            "tag": "salam",
+            "patterns": [
+                "Hai",
+                "Hi",
+                "Halo",
+                "Apa Kabar",
+                "Selamat Pagi",
+                "Selamat Siang",
+                "Selamat Malam",
+                "Salam",
+                "Ping",
+                "P",
+                "Apa kabar?",
+                "Apa yang sedang terjadi?"
+            ],
+            "responses": [
+                "Halo!",
+                "Hai",
+                "Halo, ada yang bisa saya bantu?",
+                "Halo selamat datang",
+                "Hai Kawan"
+            ]
+        },
+        {
+            "tag": "bye",
+            "patterns": [
+                "Dadah",
+                "Selamat Tinggal",
+                "Dah",
+                "Daah",
+                "Semoga harimu menyenangkan",
+                "Ok makasih",
+                "Sampai Jumpa Lagi",
+                "Ok bye",
+                "Selamat tinggal",
+                "Sampai jumpa nanti"
+            ],
+            "responses": [
+                "Sampai jumpa lagi yaa",
+                "Kalau ada masalah, hubungi aku lagi ya",
+                "Semoga harimu menyenangkan!"
+            ]
+        },
+        {
+            "tag": "nama",
+            "patterns": [
+                "nama kamu siapa?",
+                "lu siapa?",
+                "siapa sih lo?",
+                "lu sape ?",
+                "nama lo sape dah ?",
+                "nama?",
+                "Siapa kamu?",
+                "Boni itu siapa?"
+            ],
+            "responses": [
+                "Namaku Boni, asisten chatbot STT Nurul Fikri!",
+                "Halo, aku Boni!",
+                "Kenalin, aku Boni dari STT Nurul Fikri!",
+                "Saya adalah chatbot resmi STT Nurul Fikri, panggil saja saya Boni!"
+            ]
+        },
+        {
+            "tag": "kemampuan",
+            "patterns": [
+                "kamu bisa apa?",
+                "apa yang bisa anda lakukan?",
+                "kamu bisa ngapain aja?",
+                "lo bisa ngapain?",
+                "apa kemampuan lo?",
+                "Apa yang bisa kamu bantu?",
+                "Apa saja yang kamu bisa lakukan?"
+            ],
+            "responses": [
+                "Aku bisa membantu kamu dengan informasi seputar STT Nurul Fikri, seperti program studi, akademik, MBKM, dan lainnya!",
+                "Aku adalah chatbot resmi STT Nurul Fikri yang siap membantu kamu mendapatkan informasi!",
+                "Aku bisa menjawab pertanyaan tentang jurusan, sejarah STT Nurul Fikri, dan hal-hal terkait akademik!"
+            ]
+        },
+        {
+            "tag": "sttnf_sejarah",
+            "patterns": [
+                "Ceritakan sejarah STT Nurul Fikri",
+                "Kapan STT Nurul Fikri didirikan?",
+                "Asal usul STT Nurul Fikri",
+                "Bagaimana STT Nurul Fikri bermula?",
+                "Sejarah STT Nurul Fikri"
+            ],
+            "responses": [
+                "Sejarah STT Nurul Fikri dimulai pada tahun 1994 dengan berdirinya Nurul Fikri Computer & Statistics (NCS) atau NF Computer. Pada 1998, mereka mulai menyediakan pelatihan Linux dan aplikasi Open Source.",
+                "Pada tahun 2000, NCS berubah nama menjadi Lembaga Pendidikan Komputer Nurul Fikri (LPK-NF), kemudian berganti lagi menjadi Lembaga Pendidikan dan Pengembangan Profesi Terpadu Nurul Fikri (LP3T-NF).",
+                "Tahun 2007, LP3T-NF mulai menyelenggarakan pendidikan teknologi informasi dua tahun yang terakreditasi Badan Akreditasi Nasional Pendidikan Non Formal.",
+                "Pada 13 Agustus 2012, STT-NF resmi berdiri dengan SK Menteri Pendidikan dan Kebudayaan No. 269/E/O/2012, awalnya dengan dua program studi: Sistem Informasi dan Teknik Informatika.",
+                "Pada tahun 2022, seiring perkembangan ekonomi digital, STT-NF menambah program studi baru yaitu Bisnis Digital."
+            ]
+        },
+        {
+            "tag": "prodi_sistem_informasi_umum",
+            "patterns": [
+                "Apa itu Sistem Informasi?",
+                "Ceritakan tentang Prodi Sistem Informasi",
+                "Jurusan Sistem Informasi di STT Nurul Fikri",
+                "Apa saja yang dipelajari di Sistem Informasi?",
+                "Sistem Informasi itu apa sih?",
+                "Jelaskan Sistem Informasi",
+                "Prospek kerja Sistem Informasi",
+                "Apa saja mata kuliah yang ada di Sistem Informasi?"
+            ],
+            "responses": [
+                "Sistem Informasi adalah program studi yang fokus pada pengembangan sistem informasi bisnis, mengintegrasikan teknologi, manajemen, dan strategi organisasi.",
+                "Visi Prodi Sistem Informasi: Menjadi program studi unggul dalam menghasilkan profesional sistem informasi yang inovatif dan berkarakter.",
+                "Lulusan Sistem Informasi mampu:\n- Menganalisis kebutuhan sistem informasi bisnis\n- Merancang solusi teknologi untuk organisasi\n- Mengelola proyek teknologi informasi\n- Mengembangkan strategi digital bisnis",
+                "Di Prodi Sistem Informasi, kamu akan mempelajari topik-topik seperti analisis sistem, manajemen proyek IT, dan pengembangan aplikasi perangkat lunak."
+            ]
+        },
+        {
+            "tag": "prodi_sistem_informasi_visi_misi",
+            "patterns": [
+                "Apa visi Sistem Informasi?",
+                "Misi Prodi Sistem Informasi",
+                "Tujuan Prodi Sistem Informasi",
+                "Visi misi Sistem Informasi",
+                "Apa visi misi dari jurusan Sistem Informasi?"
+            ],
+            "responses": [
+                "Visi Sistem Informasi: Menjadi program studi unggul dalam pendidikan sistem informasi yang berkarakter dan berdaya saing global.",
+                "Misi Sistem Informasi:\n1. Menyelenggarakan pendidikan berkualitas di bidang Sistem Informasi\n2. Mengembangkan riset inovatif\n3. Membina mahasiswa menjadi profesional berkarakter",
+                "Tujuan Prodi Sistem Informasi:\n- Menghasilkan lulusan kompeten dan profesional\n- Menciptakan karya ilmiah inovatif\n- Memberikan kontribusi pada pengembangan teknologi informasi"
+            ]
+        },
+        {
+            "tag": "prodi_sistem_informasi_peminatan",
+            "patterns": [
+                "Apa saja peminatan di Sistem Informasi?",
+                "Konsentrasi di Sistem Informasi",
+                "Pilihan peminatan Sistem Informasi",
+                "Jurusan khusus di Sistem Informasi",
+                "Apa saja pilihan peminatan di Prodi Sistem Informasi?"
+            ],
+            "responses": [
+                "Sistem Informasi memiliki 3 peminatan utama:\n1. E-Business\n2. Enterprise Information System\n3. Visual Communication Design",
+                "Peminatan E-Business fokus pada:\n- Pengembangan bisnis digital\n- Strategi pemasaran online\n- Manajemen e-commerce",
+                "Peminatan Enterprise Information System fokus pada:\n- Sistem informasi perusahaan\n- Manajemen proses bisnis\n- Integrasi sistem enterprise",
+                "Peminatan Visual Communication Design fokus pada:\n- Desain komunikasi visual\n- Multimedia\n- Perancangan antarmuka pengguna"
+            ]
+        },
+        {
+            "tag": "prodi_teknik_informatika_umum",
+            "patterns": [
+                "Apa itu Teknik Informatika?",
+                "Ceritakan tentang Prodi Teknik Informatika",
+                "Jurusan Teknik Informatika di STT Nurul Fikri",
+                "Apa saja yang dipelajari di Teknik Informatika?",
+                "Teknik Informatika itu apa sih?",
+                "Jelaskan Teknik Informatika",
+                "Prospek kerja Teknik Informatika",
+                "Apa saja mata kuliah yang ada di Teknik Informatika?"
+            ],
+            "responses": [
+                "Teknik Informatika adalah program studi yang fokus pada pengembangan perangkat lunak, infrastruktur teknologi, dan solusi komputasi.",
+                "Visi Prodi Teknik Informatika: Menjadi program studi unggul dalam merancang, mengembangkan, dan mengaplikasikan solusi informatika.",
+                "Lulusan Teknik Informatika mampu:\n- Merancang perangkat lunak\n- Mengembangkan infrastruktur teknologi\n- Menyelesaikan masalah komputasi\n- Mengimplementasikan solusi teknologi"
+            ]
+        },
+        {
+            "tag": "prodi_teknik_informatika_visi_misi",
+            "patterns": [
+                "Apa visi Teknik Informatika?",
+                "Misi Prodi Teknik Informatika",
+                "Tujuan Prodi Teknik Informatika",
+                "Visi misi Teknik Informatika"
+            ],
+            "responses": [
+                "Visi Teknik Informatika: Menjadi program studi Informatika unggul yang menghasilkan lulusan berdaya saing global.",
+                "Misi Teknik Informatika:\n1. Menyelenggarakan pendidikan tinggi berkualitas\n2. Melakukan penelitian inovatif\n3. Melakukan pengabdian masyarakat\n4. Membangun lingkungan akademik kondusif",
+                "Tujuan Prodi Teknik Informatika:\n- Menghasilkan sarjana kompeten\n- Menghasilkan karya ilmiah inovatif\n- Memberikan manfaat teknologi pada masyarakat"
+            ]
+        },
+        {
+            "tag": "prodi_teknik_informatika_peminatan",
+            "patterns": [
+                "Apa saja peminatan di Teknik Informatika?",
+                "Konsentrasi di Teknik Informatika",
+                "Pilihan peminatan Teknik Informatika",
+                "Jurusan khusus di Teknik Informatika"
+            ],
+            "responses": [
+                "Teknik Informatika memiliki 4 peminatan utama:\n1. Software Engineering\n2. Network Engineering\n3. Data Engineering\n4. Cyber Security",
+                "Peminatan Software Engineering fokus pada:\n- Pengembangan perangkat lunak\n- Rekayasa sistem\n- Manajemen proyek IT",
+                "Peminatan Network Engineering fokus pada:\n- Desain jaringan\n- Keamanan jaringan\n- Infrastruktur teknologi",
+                "Peminatan Data Engineering fokus pada:\n- Pengolahan big data\n- Analisis data\n- Manajemen basis data",
+                "Peminatan Cyber Security fokus pada:\n- Keamanan sistem\n- Pencegahan serangan siber\n- Forensik digital"
+            ]
+        },
+        {
+            "tag": "prodi_bisnis_digital_umum",
+            "patterns": [
+                "Apa itu Bisnis Digital?",
+                "Ceritakan tentang Prodi Bisnis Digital",
+                "Jurusan Bisnis Digital di STT Nurul Fikri",
+                "Apa saja yang dipelajari di Bisnis Digital?",
+                "Bisnis Digital itu apa sih?",
+                "Jelaskan Bisnis Digital",
+                "Prospek kerja Bisnis Digital"
+            ],
+            "responses": [
+                "Bisnis Digital adalah program studi yang mengintegrasikan teknologi dengan strategi bisnis modern.",
+                "Visi Prodi Bisnis Digital: Menjadi program studi unggul dalam pengembangan UMKM Digital.",
+                "Lulusan Bisnis Digital mampu:\n- Mengembangkan strategi bisnis digital\n- Merancang solusi teknologi untuk bisnis\n- Mengelola transformasi digital\n- Mengembangkan startup teknologi"
+            ]
+        },
+        {
+            "tag": "prodi_bisnis_digital_visi_misi",
+            "patterns": [
+                "Apa visi Bisnis Digital?",
+                "Misi Prodi Bisnis Digital",
+                "Tujuan Prodi Bisnis Digital",
+                "Visi misi Bisnis Digital"
+            ],
+            "responses": [
+                "Visi Bisnis Digital: Menjadi program studi unggul di Indonesia dalam pengembangan UMKM Digital.",
+                "Misi Bisnis Digital:\n1. Menyelenggarakan pendidikan berkualitas\n2. Melakukan penelitian inovatif\n3. Pengabdian masyarakat di bidang digital\n4. Membangun lingkungan akademik inovatif",
+                "Tujuan Prodi Bisnis Digital:\n- Menghasilkan sarjana kompeten di bidang digital\n- Mendukung pengembangan UMKM\n- Menciptakan inovasi teknologi bisnis"
+            ]
+        },
+        {
+            "tag": "prodi_bisnis_digital_peminatan",
+            "patterns": [
+                "Apa saja peminatan di Bisnis Digital?",
+                "Konsentrasi di Bisnis Digital",
+                "Pilihan peminatan Bisnis Digital",
+                "Jurusan khusus di Bisnis Digital"
+            ],
+            "responses": [
+                "Bisnis Digital memiliki 2 peminatan utama:\n1. Startup\n2. Digital Marketing",
+                "Peminatan Startup fokus pada:\n- Pengembangan ide bisnis\n- Manajemen startup\n- Strategi pertumbuhan bisnis digital",
+                "Peminatan Digital Marketing fokus pada:\n- Strategi pemasaran online\n- Analisis data pemasaran\n- Manajemen kampanye digital"
+            ]
+        },
+        {
+            "tag": "sttnf_sks_sistem",
+            "patterns": [
+                "Apa itu Satuan Kredit Semester (SKS)?",
+                "Jelaskan sistem SKS di STT Nurul Fikri",
+                "Bagaimana cara menghitung SKS?",
+                "Apa fungsi SKS dalam perkuliahan?",
+                "Berapa beban SKS per semester?"
+            ],
+            "responses": [
+                "Satuan Kredit Semester (SKS) adalah satuan yang digunakan untuk menyatakan beban studi mahasiswa, pengakuan keberhasilan, dan usaha penyelenggaraan pendidikan.",
+                "Sistem SKS memungkinkan mahasiswa untuk:\n- Mengambil mata kuliah sesuai kemampuan\n- Menentukan beban studi fleksibel\n- Menghitung progres akademik dengan jelas",
+                "Perhitungan IP (Indeks Prestasi) dilakukan dengan rumus:\nIP = Σ(Bobot_SKS_MK * Nilai_MK)\nNilai IP berkisar antara 0-4."
+            ]
+        },
+        {
+            "tag": "sttnf_evaluasi_akademik",
+            "patterns": [
+                "Bagaimana sistem evaluasi akademik di STT Nurul Fikri?",
+                "Kriteria kelulusan mata kuliah",
+                "Sistem penilaian akademik",
+                "Apa itu indeks prestasi?",
+                "Kapan evaluasi akademik dilakukan?"
+            ],
+            "responses": [
+                "Evaluasi Akademik di STT Nurul Fikri dilakukan:\n- Setiap akhir semester\n- Akhir delapan semester\n- Akhir program studi",
+                "Sistem penilaian menggunakan huruf mutu:\nA (4.00): 85-100\nA- (3.70): 80-84\nB+ (3.30): 75-79\nB (3.00): 70-74\nB- (2.70): 65-69\nC+ (2.30): 60-64\nC (2.00): 55-59\nC- (1.70): 50-54\nD (1.00): 40-49\nE (0.00): 0-40",
+                "Keterangan Kelulusan:\n- Nilai A sampai C dinyatakan Lulus\n- Nilai C-, D, dan E Tidak Lulus",
+                "Indeks Prestasi (IP) digunakan untuk:\n- Mengukur kemampuan akademik\n- Menentukan beban studi semester berikutnya\n- Evaluasi progres studi mahasiswa"
+            ]
+        },
+        {
+            "tag": "sttnf_masa_studi",
+            "patterns": [
+                "Berapa lama masa studi di STT Nurul Fikri?",
+                "Batas waktu kuliah",
+                "Ketentuan masa studi sarjana",
+                "Apa itu drop out?",
+                "Perpanjangan masa studi"
+            ],
+            "responses": [
+                "Ketentuan masa studi program sarjana di STT Nurul Fikri:\n- Maksimal 7 tahun (14 semester)\n- Mahasiswa yang melampaui batas akan dikenakan SPP Progresif\n- Tidak dapat memperpanjang masa studi melebihi ketentuan",
+                "Proses evaluasi masa studi meliputi:\n- Pemantauan berkala\n- Surat peringatan jika mendekati batas\n- Pembinaan khusus untuk mahasiswa dengan masa studi panjang",
+                "Drop Out (DO) dapat terjadi jika:\n- Tidak menyelesaikan studi dalam 14 semester\n- Tidak dapat memenuhi persyaratan akademik\n- Tidak aktif dalam proses akademik"
+            ]
+        },
+        {
+            "tag": "sttnf_tata_tertib_perkuliahan",
+            "patterns": [
+                "Apa saja tata tertib perkuliahan di STT Nurul Fikri?",
+                "Peraturan mahasiswa saat kuliah",
+                "Kewajiban mahasiswa di kelas",
+                "Etika perkuliahan",
+                "Aturan berpakaian di kampus"
+            ],
+            "responses": [
+                "Tata tertib perkuliahan di STT Nurul Fikri meliputi:\n- Hadir tepat waktu\n- Berpakaian rapi (baju berkerah, sepatu tertutup)\n- Tidak mengganggu jalannya perkuliahan\n- Mengerjakan tugas dengan penuh tanggung jawab\n- Menjaga kebersihan ruang kelas",
+                "Sebelum perkuliahan dimulai, mahasiswa wajib:\n- Membaca Al-Qur'an/tilawah\n- Mematikan alat komunikasi\n- Mempersiapkan perlengkapan belajar",
+                "Dosen berhak mengeluarkan mahasiswa dari kelas jika melanggar tata tertib perkuliahan."
+            ]
+        },
+        {
+            "tag": "sttnf_sistem_ujian",
+            "patterns": [
+                "Bagaimana sistem ujian di STT Nurul Fikri?",
+                "Jenis ujian apa saja?",
+                "Persyaratan mengikuti ujian",
+                "Aturan ujian",
+                "Kapan ujian dilaksanakan?"
+            ],
+            "responses": [
+                "Sistem ujian di STT Nurul Fikri terdiri dari:\n1. Ujian tengah semester\n2. Ujian akhir semester\n3. Ujian susulan (jika berhalangan)",
+                "Aturan ujian:\n- Ujian hanya dapat diikuti oleh mahasiswa yang telah memenuhi syarat akademik\n- Ujian dilakukan sesuai jadwal\n- Pakaian sopan dan sesuai aturan kampus",
+                "Syarat untuk mengikuti ujian:\n- Memiliki nilai minimal C untuk semua mata kuliah\n- Mengumpulkan semua tugas dengan baik\n- Tidak memiliki tunggakan administrasi"
+            ]
+        },
+        {
+            "tag": "sttnf_ketentuan_ujian",
+            "patterns": [
+                "Apa saja aturan saat ujian?",
+                "Bagaimana jika terlambat ujian?",
+                "Syarat ujian susulan",
+                "Apa konsekuensi jika melanggar aturan ujian?",
+                "Cara mengikuti ujian"
+            ],
+            "responses": [
+                "Aturan ujian di STT Nurul Fikri:\n- Datang 10 menit sebelum ujian\n- Berpakaian rapi dan sopan\n- Membawa alat tulis sendiri\n- Menonaktifkan alat komunikasi\n- Menjaga kejujuran akademik",
+                "Keterlambatan ujian:\n- Maksimal 15 menit diperbolehkan masuk\n- Lewat 15 menit harus lapor ke BAAK\n- Tidak diperbolehkan masuk jika ada peserta lain sudah keluar",
+                "Ujian susulan diberikan dengan syarat:\n- Sakit dengan surat keterangan rumah sakit\n- Keluarga inti meninggal\n- Tugas resmi mewakili kampus\n- Bencana alam",
+                "Pelanggaran ujian dapat berakibat:\n- Diskualifikasi\n- Pembatalan nilai\n- Sanksi akademik lainnya"
+            ]
+        },
+        {
+            "tag": "sttnf_kartu_rencana_studi",
+            "patterns": [
+                "Apa itu Kartu Rencana Studi (KRS)?",
+                "Bagaimana cara mengisi KRS?",
+                "Kapan KRS dibuat?",
+                "Apa saja yang ada di KRS?",
+                "Pentingnya KRS"
+            ],
+            "responses": [
+                "Kartu Rencana Studi (KRS) adalah dokumen yang berisi daftar mata kuliah yang akan diambil mahasiswa pada semester berjalan.",
+                "Informasi dalam KRS meliputi:\n- Kode mata kuliah\n- Nama mata kuliah\n- Bobot SKS\n- Ruang dan waktu perkuliahan",
+                "Proses pengisian KRS:\n- Dilakukan sebelum semester dimulai\n- Didampingi Dosen Pembimbing Akademik\n- Disesuaikan dengan kemampuan akademik mahasiswa",
+                "Fungsi KRS:\n- Mengatur beban studi mahasiswa\n- Menentukan mata kuliah yang diikuti\n- Syarat mengikuti kegiatan akademik"
+            ]
+        },
+        {
+            "tag": "sttnf_kode_etik_mahasiswa",
+            "patterns": [
+                "Apa saja kode etik mahasiswa di STT Nurul Fikri?",
+                "Peraturan mahasiswa",
+                "Larangan-larangan bagi mahasiswa",
+                "Sanksi pelanggaran di kampus",
+                "Etika mahasiswa STT Nurul Fikri"
+            ],
+            "responses": [
+                "Kode Etik Mahasiswa STT Nurul Fikri mencakup tiga jenis pelanggaran:\n1. Pelanggaran Disiplin\n2. Pelanggaran Akademik\n3. Pelanggaran Hukum",
+                "Pelanggaran Disiplin meliputi:\n- Mengganggu proses belajar mengajar\n- Berpakaian tidak sesuai aturan\n- Merokok di area kampus\n- Tidak mengikuti pembinaan\n- Mencoreng nama baik kampus",
+                "Pelanggaran Akademik termasuk:\n- Menyontek\n- Plagiarisme\n- Melakukan kecurangan akademik\n- Tidak memenuhi standar akademik"
+            ]
+        },
+        {
+            "tag": "sttnf_sanksi_akademik",
+            "patterns": [
+                "Apa saja sanksi akademik di STT Nurul Fikri?",
+                "Konsekuensi pelanggaran akademik",
+                "Kapan mahasiswa bisa di-drop out?",
+                "Peringatan akademik",
+                "Aturan pemberhentian studi"
+            ],
+            "responses": [
+                "Sanksi Akademik di STT Nurul Fikri dapat berupa:\n1. Peringatan Akademik\n2. Pemutusan Studi (Drop Out)",
+                "Peringatan Akademik diberikan jika:\n- IP di bawah 2,00\n- IPK di bawah 2,00\n- Tidak memenuhi syarat akademik pada semester tertentu",
+                "Mahasiswa dapat di-drop out jika:\n- Tidak menyelesaikan studi dalam 14 semester\n- Tidak aktif selama 2 semester berturut-turut\n- Melanggar kode etik berat\n- Tidak memenuhi persyaratan akademik",
+                "Konsekuensi pelanggaran berat:\n- Pembatalan nilai\n- Skorsing\n- Pemberhentian sebagai mahasiswa"
+            ]
+        },
+        {
+            "tag": "sttnf_kecurangan_akademik",
+            "patterns": [
+                "Apa saja bentuk kecurangan akademik?",
+                "Konsekuensi plagiat",
+                "Larangan dalam kegiatan akademik",
+                "Aturan kejujuran akademik",
+                "Bagaimana menghindari kecurangan akademik?"
+            ],
+            "responses": [
+                "Bentuk Kecurangan Akademik:\n- Plagiarisme\n- Menyontek saat ujian\n- Merusak hak cipta\n- Memalsukan dokumen akademik\n- Memberikan informasi menyesatkan",
+                "Konsekuensi Kecurangan Akademik:\n- Pembatalan nilai\n- Skorsing\n- Potensi pemberhentian studi\n- Sanksi sesuai pertimbangan pimpinan",
+                "Tips Menghindari Kecurangan:\n- Kerjakan tugas sendiri\n- Cantumkan sumber referensi\n- Pahami konsep dengan benar\n- Konsultasi jika ada kesulitan"
+            ]
+        },
+        {
+            "tag": "sttnf_suasana_akademik",
+            "patterns": [
+                "Bagaimana suasana akademik di STT Nurul Fikri?",
+                "Kebijakan akademik kampus",
+                "Kebebasan akademik",
+                "Otonomi keilmuan",
+                "Prinsip akademik di STT Nurul Fikri"
+            ],
+            "responses": [
+                "Suasana Akademik STT Nurul Fikri dibangun atas tiga kebijakan utama:\n1. Otonomi Keilmuan\n2. Kebebasan Akademik\n3. Kebebasan Mimbar Akademik",
+                "Otonomi Keilmuan kami mencakup:\n- Kurikulum yang memungkinkan pengembangan diri\n- Keleluasaan dosen mengembangkan metode ajar\n- Penyediaan sarana penelitian dan pengembangan"
+            ]
+        },
+        {
+            "tag": "sttnf_kebebasan_akademik",
+            "patterns": [
+                "Apa itu kebebasan akademik di STT Nurul Fikri?",
+                "Hak mahasiswa dalam akademik",
+                "Kebebasan berpendapat di kampus",
+                "Kesempatan pengembangan mahasiswa",
+                "Metode belajar di STT Nurul Fikri"
+            ],
+            "responses": [
+                "Kebebasan Akademik di STT Nurul Fikri meliputi:\n- Kesempatan bertanya dan berdiskusi\n- Keterlibatan dalam penelitian\n- Pengembangan kemampuan melalui IT Club\n- Transparansi sistem penilaian",
+                "Hak Mahasiswa:\n- Mengikuti pelatihan dan seminar\n- Konsultasi dengan Pembimbing Akademik\n- Memberikan umpan balik tentang perkuliahan\n- Mengembangkan bakat melalui UKM",
+                "Kami mendorong mahasiswa untuk:\n- Aktif dalam diskusi\n- Mengembangkan metode belajar\n- Berpartisipasi dalam kegiatan akademik"
+            ]
+        },
+        {
+            "tag": "sttnf_kemitraan_dosen_mahasiswa",
+            "patterns": [
+                "Bagaimana hubungan dosen dan mahasiswa di STT Nurul Fikri?",
+                "Kemitraan akademik",
+                "Keterlibatan mahasiswa dalam penelitian",
+                "Bimbingan akademik",
+                "Peran mahasiswa di kampus"
+            ],
+            "responses": [
+                "Kemitraan Dosen-Mahasiswa di STT Nurul Fikri:\n- Mahasiswa dilibatkan dalam penelitian dosen\n- Kesempatan menjadi asisten dosen\n- Bimbingan dalam Tugas Akhir\n- Kolaborasi dalam pengabdian masyarakat",
+                "Bentuk Keterlibatan Mahasiswa:\n- Praktik di laboratorium komputer\n- Penelitian bersama dosen\n- Kegiatan workshop dan pelatihan\n- Pengabdian kepada masyarakat",
+                "Kami percaya pada prinsip:\n- Inspirasi timbal balik\n- Pengembangan kemampuan bersama\n- Kolaborasi akademik yang produktif"
+            ]
+        },
+        {
+            "tag": "sttnf_tugas_akhir_aturan",
+            "patterns": [
+                "Aturan Tugas Akhir di STT Nurul Fikri",
+                "Syarat mengambil Tugas Akhir",
+                "Ketentuan Tugas Akhir",
+                "Pedoman Tugas Akhir",
+                "Tata tertib Tugas Akhir"
+            ],
+            "responses": [
+                "Aturan Tugas Akhir STT Nurul Fikri:\n- Dilakukan dalam 1 semester\n- Mahasiswa SI harus lulus 124 SKS\n- Mahasiswa TI harus lulus 124 SKS\n- Wajib mengikuti kelas TA minimal 10x\n- Bimbingan minimal 6x, maksimal 10x",
+                "Persyaratan Umum Tugas Akhir:\n- Ambil mata kuliah TA di KRS\n- Ikuti kelas TA minimal 10x\n- Lakukan bimbingan minimal 6x\n- Ikuti penilaian proposal dan hasil\n- Dokumen TA disetujui pembimbing"
+            ]
+        },
+        {
+            "tag": "sttnf_syarat_sidang_akhir",
+            "patterns": [
+                "Syarat sidang Tugas Akhir",
+                "Persyaratan mengikuti sidang akhir",
+                "Dokumen yang dibutuhkan untuk sidang",
+                "Kelengkapan sidang Tugas Akhir",
+                "Cara daftar sidang Tugas Akhir"
+            ],
+            "responses": [
+                "Persyaratan Umum Sidang Akhir:\n- Ambil mata kuliah TA di KRS\n- Ikuti kelas TA minimal 10x\n- Lakukan bimbingan minimal 6x\n- Ikuti penilaian proposal dan hasil\n- Dokumen TA disetujui pembimbing",
+                "Persyaratan Akademik Sidang:\n- Lulus 144-145 SKS\n- IPK minimal 2.00\n- Tidak ada nilai C-, D, atau E",
+                "Persyaratan Administrasi:\n- Bebas tunggakan keuangan\n- Isi formulir pendaftaran sidang\n- Surat bebas plagiasi (maks 35%)\n- Lampirkan ijazah dan E-KTP"
+            ]
+        },
+        {
+            "tag": "sttnf_bimbingan_tugas_akhir",
+            "patterns": [
+                "Cara bimbingan Tugas Akhir",
+                "Proses bimbingan TA",
+                "Aturan bimbingan dengan dosen",
+                "Berapa kali bimbingan Tugas Akhir",
+                "Ketentuan bimbingan TA"
+            ],
+            "responses": [
+                "Ketentuan Bimbingan Tugas Akhir:\n- Minimal 6 kali bimbingan\n- Maksimal 10 kali bimbingan\n- Setiap bimbingan wajib catat tanggal dan materi\n- Paraf pembimbing diperlukan\n- Bisa bimbingan via email",
+                "Tips Bimbingan:\n- Persiapkan materi dengan baik\n- Konsisten jadwal bimbingan\n- Catat setiap kemajuan\n- Terbuka pada masukan dosen\n- Hindari penundaan"
+            ]
+        },
+        {
+            "tag": "sttnf_revisi_tugas_akhir",
+            "patterns": [
+                "Prosedur revisi Tugas Akhir",
+                "Cara melakukan revisi TA",
+                "Ketentuan revisi skripsi",
+                "Batas waktu revisi",
+                "Dokumen revisi Tugas Akhir"
+            ],
+            "responses": [
+                "Ketentuan Revisi Tugas Akhir:\n- Selesaikan revisi maks 1 bulan setelah sidang\n- Dapatkan persetujuan Pembimbing dan Penguji\n- Unggah dokumen revisi lengkap\n- Gunakan format penamaan file yang ditentukan",
+                "Dokumen Revisi:\n- Revisi Skripsi utuh\n- Lembar pernyataan perbaikan\n- Nama file: Revisi Skripsi_Nama_NIM\n- Nama file: Pernyataan Perbaikan_Nama_NIM"
+            ]
+        },
+        {
+            "tag": "sttnf_template_tugas_akhir",
+            "patterns": [
+                "Template Tugas Akhir",
+                "Format penulisan TA",
+                "Panduan menulis skripsi",
+                "Template laporan TA",
+                "Cara menulis Tugas Akhir"
+            ],
+            "responses": [
+                "Template Tugas Akhir tersedia untuk:\n- Pra Proposal\n- Laporan Tugas Akhir\n- Jurnal Tugas Akhir",
+                "Pedoman Penulisan:\n- Ikuti template resmi\n- Perhatikan format yang ditentukan\n- Konsultasi dengan dosen pembimbing\n- Gunakan referensi ilmiah terkini"
+            ]
+        },
+        {
+            "tag": "sttnf_mbkm_program",
+            "patterns": [
+                "Apa itu program MBKM?",
+                "Program Kampus Merdeka di STT Nurul Fikri",
+                "Jenis kegiatan MBKM",
+                "Apa saja program Merdeka Belajar?",
+                "Kegiatan MBKM yang tersedia"
+            ],
+            "responses": [
+                "8 Program Kegiatan Kampus Merdeka:\n1. Magang/Praktik Kerja\n2. Studi/Proyek Independen\n3. Kegiatan Wirausaha\n4. Pertukaran Pelajar\n5. Asistensi Mengajar\n6. Penelitian/Riset\n7. Proyek Kemanusiaan\n8. Membangun Desa/KKN Tematik",
+                "Tujuan MBKM:\n- Mendukung pencapaian visi misi prodi\n- Mengembangkan kompetensi mahasiswa\n- Memperluas jejaring\n- Mendorong kemandirian belajar"
+            ]
+        },
+        {
+            "tag": "sttnf_mbkm_pendaftaran",
+            "patterns": [
+                "Cara daftar program MBKM",
+                "Prosedur pendaftaran MBKM",
+                "Syarat mengikuti MBKM",
+                "Bagaimana mendaftar program Kampus Merdeka?",
+                "Proses seleksi MBKM"
+            ],
+            "responses": [
+                "Prosedur Pendaftaran MBKM:\n1. Eksplorasi program mandiri\n2. Konsultasi dengan Dosen PA\n3. Dapat rekomendasi\n4. Isi formulir permohonan\n5. Proses administrasi oleh BAAK",
+                "Persyaratan Umum MBKM:\n- Mahasiswa aktif\n- Memenuhi kriteria program\n- Mendapat rekomendasi Dosen PA\n- Lengkapi dokumen administrasi"
+            ]
+        },
+        {
+            "tag": "sttnf_mbkm_konversi_mata_kuliah",
+            "patterns": [
+                "Konversi mata kuliah MBKM",
+                "Cara mengkonversi nilai MBKM",
+                "Penilaian kegiatan MBKM",
+                "Bagaimana SKS MBKM dihitung?",
+                "Sistem penilaian program Kampus Merdeka"
+            ],
+            "responses": [
+                "Proses Konversi Mata Kuliah MBKM:\n1. Selesaikan kegiatan MBKM\n2. Laporkan kegiatan di sistem\n3. Unggah sertifikat\n4. Lampirkan transkrip nilai\n5. Dosen pembimbing menilai\n6. Nilai diinput ke Sistem Akademik",
+                "Ketentuan Konversi:\n- Setiap program memiliki bobot SKS\n- Penilaian berdasarkan kinerja\n- Disetujui oleh Dosen Pembimbing Lapangan\n- Sesuai dengan capaian pembelajaran"
+            ]
+        },
+        {
+            "tag": "sttnf_mbkm_magang",
+            "patterns": [
+                "Prosedur magang MBKM",
+                "Cara daftar magang",
+                "Syarat magang di luar mitra Dikti",
+                "Bagaimana mengikuti program magang?",
+                "Aturan magang Kampus Merdeka"
+            ],
+            "responses": [
+                "Prosedur Magang MBKM:\n1. Pilih lokasi magang\n2. Konsultasi Dosen PA\n3. Isi formulir pengajuan\n4. Proses administrasi BAAK\n5. Dapat SK Dosen Pembimbing\n6. Daftarkan di KRS\n7. Laksanakan magang\n8. Laporkan hasil",
+                "Persyaratan Magang:\n- Mahasiswa aktif\n- Dapat rekomendasi Dosen PA\n- Lengkapi administrasi\n- Dapat surat kesanggupan dari mitra\n- Bimbingan dengan Dosen Lapangan"
+            ]
+        },
+        {
+            "tag": "sttnf_mbkm_manfaat",
+            "patterns": [
+                "Manfaat program MBKM",
+                "Keuntungan Kampus Merdeka",
+                "Apa saja yang didapat dari MBKM?",
+                "Dampak positif program MBKM",
+                "Mengapa ikut program MBKM?"
+            ],
+            "responses": [
+                "Manfaat Program MBKM:\n- Pengalaman praktik langsung\n- Mengembangkan soft skills\n- Memperluas jejaring\n- Kesempatan magang/penelitian\n- Mempersiapkan karir",
+                "Keuntungan MBKM:\n- Fleksibilitas belajar\n- Pengakuan SKS\n- Pengembangan kompetensi\n- Kesempatan lintas prodi\n- Membangun portofolio"
+            ]
+        },
+        {
+            "tag": "sttnf_mbkm_administrasi",
+            "patterns": [
+                "Administrasi MBKM",
+                "Dokumen apa saja yang dibutuhkan MBKM?",
+                "Cara mengurus administrasi MBKM",
+                "Persyaratan administrasi program MBKM",
+                "Dokumen konversi MBKM"
+            ],
+            "responses": [
+                "Dokumen Administrasi MBKM:\n- Laporan Kegiatan\n- Transkrip Nilai\n- Log Kegiatan\n- Surat Pernyataan Mitra\n- Surat Kesanggupan",
+                "Panduan Upload Dokumen MBKM:\n1. Buat folder: NIM_NAMA\n2. Upload dokumen dengan format: NamaDokumen_NamaLengkap\n3. Update log catatan\n4. Konfirmasi ke dosen pembimbing"
+            ]
+        },
+        {
+            "tag": "sttnf_mbkm_dosen_pembimbing",
+            "patterns": [
+                "Siapa dosen pembimbing MBKM?",
+                "Dosen pembimbing Teknik Informatika",
+                "Dosen pembimbing Sistem Informasi",
+                "Tugas dosen pembimbing MBKM",
+                "Peran dosen dalam program MBKM"
+            ],
+            "responses": [
+                "Dosen Pembimbing MBKM Teknik Informatika:\n- Nasrul, S.Pdi.,M.Kom.\n- Reza Maulana, M.Kom\n- Ahmad Rio Adriansyah, S.Si, M.Si\n- Tifani Nabarian, S.Kom., M.T.I.\n- Dan lainnya",
+                "Dosen Pembimbing MBKM Sistem Informasi:\n- Dr. Amalia Rahma, S.T., MT\n- Drs. Rusmanto, M.M.\n- Edi Wibowo, S.E., M.M.\n- Misna Asqia, M.Kom.",
+                "Tugas Dosen Pembimbing MBKM:\n- Monitoring kegiatan mahasiswa\n- Membimbing riset\n- Mereview laporan akhir\n- Memastikan kelengkapan administrasi\n- Konversi dan input nilai"
+            ]
+        },
+        {
+            "tag": "sttnf_mbkm_laporan",
+            "patterns": [
+                "Cara membuat laporan MBKM",
+                "Format laporan MBKM",
+                "Panduan laporan kegiatan MBKM",
+                "Template laporan MBKM",
+                "Isi laporan MBKM"
+            ],
+            "responses": [
+                "Panduan Laporan MBKM:\n1. Buat folder NIM_NAMA\n2. Upload dokumen dengan format: NamaDokumen_NamaLengkap\n3. Dokumen wajib:\n   - Laporan Kegiatan\n   - Transkrip Nilai\n   - Log Kegiatan\n4. Update log catatan\n5. Konfirmasi ke dosen pembimbing",
+                "Link Penting:\n- Template Laporan: bit.ly/TemplateLaporanMBKM\n- Panduan Laporan: bit.ly/PanduanLaporanMBKM\n- Form Konversi: bit.ly/form-konversi"
+            ]
+        },
+        {
+            "tag": "sttnf_mbkm_surat_pengajuan",
+            "patterns": [
+                "Cara mengurus surat MBKM",
+                "Dokumen surat untuk MBKM",
+                "Prosedur pengajuan surat MBKM",
+                "Surat apa saja yang dibutuhkan MBKM?",
+                "Alur pembuatan surat MBKM"
+            ],
+            "responses": [
+                "Alur Pengajuan Surat MBKM:\n1. Buat Surat Pernyataan Mitra\n   - Tanda tangan basah\n   - Cap basah mitra\n2. Buat Surat Kesanggupan\n   - Tanda tangan mahasiswa\n   - Tanda tangan mitra\n3. Gabung dokumen\n4. Upload di bit.ly/form-konversi",
+                "Dokumen Surat MBKM:\n- Surat Pernyataan Mitra\n- Surat Kesanggupan\n- Informasi lengkap: bit.ly/suratMBKM"
+            ]
+        },
+        {
+            "tag": "sttnf_mbkm_konversi_sks",
+            "patterns": [
+                "Bagaimana konversi SKS MBKM?",
+                "Cara mengkonversi nilai MBKM",
+                "Penilaian kegiatan MBKM",
+                "Rubrik penilaian MBKM",
+                "Sistem penilaian program Kampus Merdeka"
+            ],
+            "responses": [
+                "Komponen Penilaian Konversi SKS MBKM:\n- Log/Weekly Report\n- Laporan Akhir MBKM\n- Daftar Nilai dari Penyelenggara\n- Asesmen tambahan\n- Penilaian mentor lapangan\n- Evaluasi dosen pembimbing",
+                "Proses Konversi SKS:\n1. Kumpulkan dokumen pendukung\n2. Dosen pembimbing menilai laporan\n3. Evaluasi kualitas pelaksanaan program\n4. Konversi ke mata kuliah setara\n5. Input nilai ke sistem akademik"
+            ]
+        },
+        {
+            "tag": "sttnf_mbkm_rubrik_penilaian",
+            "patterns": [
+                "Rubrik penilaian MBKM",
+                "Kriteria penilaian MBKM",
+                "Cara menilai kegiatan MBKM",
+                "Komponen penilaian Kampus Merdeka",
+                "Standar penilaian MBKM"
+            ],
+            "responses": [
+                "Komponen Rubrik Penilaian MBKM:\n1. Penilaian Mentor Lapangan\n   - Kemajuan mahasiswa\n   - Partisipasi dalam program\n2. Penilaian Dosen Pembimbing\n   - Kualitas Laporan Akhir\n   - Asesmen kegiatan\n3. Dokumen Pendukung\n   - Log/Weekly Report\n   - Daftar Nilai\n   - Video/Tugas Tambahan",
+                "Link Rubrik Penilaian: Rubrik Penilaian Kegiatan MBKM"
+            ]
+        }
+    ]
+}
